@@ -1,0 +1,70 @@
+﻿@model List<UserRoleViewModel>
+
+<main>
+    <style>
+        .wrap {
+            min-height: 70vh;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        .address {
+            word-break: break-word;
+            white-space: normal;
+        }
+    </style>
+
+    <div class="container">
+        <div class="row g-0 mb-5">
+            <h1 class="col-6 justify-content-start">EDIT MEMBERS</h1>
+            <form asp-controller="Member" asp-action="Index" class="d-flex col-6 justify-content-end">
+                <input style="background-color:#f2f2f2;" class="form-control me-1 fs-5" type="search" name="searchString" placeholder="Search a Member" />
+                <button class="btn btn-primary fs-5" type="submit">Search</button>
+            </form>
+        </div>
+        <span class="text-danger">@ViewBag.Message</span>
+        <div class="wrap" style="background-color:#f2f2f2;">
+            @if (Model.Count == 0)
+            {
+                <p>No was found member with this name!</p>
+            }
+            else
+            {
+                <table class="table table-striped table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Full Name</th>
+                            <th>User Name</th>
+                            <th>Email</th>
+                            <th>Phone Number</th>
+                            <th>Address</th>
+                            <th>Id</th>
+                            <th>Role</th>
+                            <th>Edit</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.User.FirstName @item.User.LastName</td>
+                                <td>@item.User.UserName</td>
+                                <td>@item.User.Email</td>
+                                <td>@item.User.PhoneNumber</td>
+                                <td class="address">@item.User.Address</td>
+                                <td>@item.User.Id</td>
+                                <td>@string.Join(", ", @item.UserRoles)</td>
+                                <td>
+                                    <a asp-controller="Member" asp-action="Edit" asp-route-id="@item.User.Id" class="btn btn-primary">Edit</a>
+                                    <a asp-controller="Member" asp-action="Delete" asp-route-id="@item.User.Id" class="btn btn-danger">Delete</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            }
+        </div>
+    </div>
+</main>

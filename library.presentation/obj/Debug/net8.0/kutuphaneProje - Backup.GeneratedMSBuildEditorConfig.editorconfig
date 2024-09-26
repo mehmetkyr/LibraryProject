@@ -1,0 +1,123 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = kutuphaneProje_-_Backup
+build_property.RootNamespace = kutuphaneProje_-_Backup
+build_property.ProjectDir = C:\Users\mehme\Desktop\kutuphaneProje\kutuphaneProje\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\mehme\Desktop\kutuphaneProje\kutuphaneProje
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/mehme/Desktop/kutuphaneProje/kutuphaneProje/PresentationLayer/Areas/AdminPanel/Views/Book/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uTGF5ZXJcQXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xCb29rXEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehme/Desktop/kutuphaneProje/kutuphaneProje/PresentationLayer/Areas/AdminPanel/Views/Book/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uTGF5ZXJcQXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xCb29rXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehme/Desktop/kutuphaneProje/kutuphaneProje/PresentationLayer/Areas/AdminPanel/Views/Book/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uTGF5ZXJcQXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xCb29rXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehme/Desktop/kutuphaneProje/kutuphaneProje/PresentationLayer/Areas/AdminPanel/Views/Contact/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uTGF5ZXJcQXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xDb250YWN0XENvbnRhY3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehme/Desktop/kutuphaneProje/kutuphaneProje/PresentationLayer/Areas/AdminPanel/Views/Lend/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uTGF5ZXJcQXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xMZW5kXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehme/Desktop/kutuphaneProje/kutuphaneProje/PresentationLayer/Areas/AdminPanel/Views/Member/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uTGF5ZXJcQXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xNZW1iZXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehme/Desktop/kutuphaneProje/kutuphaneProje/PresentationLayer/Areas/AdminPanel/Views/Member/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uTGF5ZXJcQXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xNZW1iZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehme/Desktop/kutuphaneProje/kutuphaneProje/PresentationLayer/Areas/AdminPanel/Views/Role/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uTGF5ZXJcQXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xSb2xlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehme/Desktop/kutuphaneProje/kutuphaneProje/PresentationLayer/Areas/AdminPanel/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uTGF5ZXJcQXJlYXNcQWRtaW5QYW5lbFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehme/Desktop/kutuphaneProje/kutuphaneProje/PresentationLayer/Areas/AdminPanel/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uTGF5ZXJcQXJlYXNcQWRtaW5QYW5lbFxfVmlld1N0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehme/Desktop/kutuphaneProje/kutuphaneProje/PresentationLayer/Views/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uTGF5ZXJcVmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehme/Desktop/kutuphaneProje/kutuphaneProje/PresentationLayer/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uTGF5ZXJcVmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehme/Desktop/kutuphaneProje/kutuphaneProje/PresentationLayer/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uTGF5ZXJcVmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehme/Desktop/kutuphaneProje/kutuphaneProje/PresentationLayer/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uTGF5ZXJcVmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehme/Desktop/kutuphaneProje/kutuphaneProje/PresentationLayer/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uTGF5ZXJcVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehme/Desktop/kutuphaneProje/kutuphaneProje/PresentationLayer/Views/Home/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uTGF5ZXJcVmlld3NcSG9tZVxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehme/Desktop/kutuphaneProje/kutuphaneProje/PresentationLayer/Views/Shared/_footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uTGF5ZXJcVmlld3NcU2hhcmVkXF9mb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehme/Desktop/kutuphaneProje/kutuphaneProje/PresentationLayer/Views/Shared/_footerAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uTGF5ZXJcVmlld3NcU2hhcmVkXF9mb290ZXJBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehme/Desktop/kutuphaneProje/kutuphaneProje/PresentationLayer/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uTGF5ZXJcVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehme/Desktop/kutuphaneProje/kutuphaneProje/PresentationLayer/Views/Shared/_LayoutAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uTGF5ZXJcVmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehme/Desktop/kutuphaneProje/kutuphaneProje/PresentationLayer/Views/Shared/_navbar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uTGF5ZXJcVmlld3NcU2hhcmVkXF9uYXZiYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehme/Desktop/kutuphaneProje/kutuphaneProje/PresentationLayer/Views/Shared/_navbarAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uTGF5ZXJcVmlld3NcU2hhcmVkXF9uYXZiYXJBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehme/Desktop/kutuphaneProje/kutuphaneProje/PresentationLayer/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uTGF5ZXJcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehme/Desktop/kutuphaneProje/kutuphaneProje/PresentationLayer/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uTGF5ZXJcVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

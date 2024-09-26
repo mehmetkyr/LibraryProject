@@ -1,0 +1,79 @@
+﻿@model PaginationViewModel
+
+<main>
+    <div class="container">
+        <div class="cards-main min-vh-100">
+            <div class="cards-main-header">
+                <h1>BOOK LIST</h1>
+                <div>
+                    <form asp-controller="Home" asp-action="List">
+                        <div>
+                            <input class="form-input-search" type="search" name="searchString" placeholder="Search a Book" />
+                            <button class="form-button" type="submit">Search</button>
+                        </div>
+                    </form>
+                    <form class="search-form" asp-controller="Home" asp-action="List">
+                        <div>
+                            <select class="form-input-category" name="categoryString">
+                                <option value="">Select a Category</option>
+                                <option value="Novel">Novel</option>
+                                <option value="Science">Science</option>
+                                <option value="Philosophy">Philosophy</option>
+                            </select>
+                            <button class="form-button" type="submit">Select</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            @if (Model.Books.Count == 0)
+            {
+                <p style="font-size: 2.5rem; color: dimgray;"><b>No was found book with this name!</b></p>
+            }
+            else
+            {
+                <div class="cards">
+                    @foreach (var item in Model.Books)
+                    {
+                        <div class="card row">
+                            <div class="card-img p-0 col-3">
+                                <img class="image" src="~/images/@item.Image" />
+                            </div>
+                            <div class="mcard col-9">
+                                <div class="card-body-name">
+                                    <h2>@item.Name</h2><h2>@item.Author</h2>
+                                </div>
+                                <div class="card-body row">
+                                    <ul class="first-body col-7">
+                                        <li class="card-text"><span>Name:</span> @item.Name</li>
+                                        <li class="card-text"><span>Author:</span> @item.Author</li>
+                                        <li class="card-text"><span>Location Information:</span> @item.LocationInfo</li>
+                                        <li class="card-text"><span>Category:</span> @item.Type</li>
+                                    </ul>
+                                    <ul class="second-body col-5">
+                                        <li class="card-text"><span>Id:</span> @item.Id</li>
+                                        <li class="card-text"><span>ISBN:</span> @item.ISBN</li>
+                                        <li class="card-text"><span>Publish Date:</span> @item.PublishDateTime.ToString("dd/MM/yyyy")</li>
+                                        <li class="card-text"><span>Status</span> @item.Status</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            }
+        </div>
+    </div>
+    <div class="pagination mt-5">
+        @if (Model.TotalPages > 1)
+        {
+            <ul class="d-flex justify-content-center w-100 text-center">
+                @for (int i = 1; i <= Model.TotalPages; i++)
+                {
+                    <li class="@(i == Model.CurrentPage ? "active" : "") page-item">
+                        <a href="@Url.Action("List", "Home", new { page = i })" class="page-link">@i</a>
+                    </li>
+                }
+            </ul>
+        }
+    </div>
+</main>

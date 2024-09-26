@@ -1,0 +1,73 @@
+﻿@model PaginationViewModel
+
+<main>
+    <div class="container">
+        <div class="row g-0 mb-5">
+            <h1 class="col-6 justify-content-start">EDIT BOOKS</h1>
+            <form asp-controller="Book" asp-action="Index" class="d-flex col-6 justify-content-end">
+                <input style="background-color:#f2f2f2;" class="form-control me-1 fs-5" type="search" name="searchString" placeholder="Search a Book" />
+                <button class="btn btn-primary fs-5" type="submit">Search</button>
+            </form>
+        </div>
+        @if(Model.Books.Count == 0)
+        {
+            <p style="font-size:2rem; min-height:100vh;">No was found book with this name!</p>
+        }
+        else
+        {
+            @foreach (var item in Model.Books)
+            {
+                <div class="card mb-3" style="background-color: #f2f2f2;">
+                    <div class="row g-0">
+                        <div class="col-3">
+                            <img class="h-100" style="width:70%;" src="~/images/@item.Image" class="img-fluid rounded-start border-end border-1">
+                        </div>
+                        <div class="col-9 row align-items-center">
+                            <div class="card-body col-6">
+                                <h4 class="card-title mb-3 fw-bold">DETAILS</h4>
+                                <p class="card-text fs-5">Name: @item.Name</p>
+                                <p class="card-text fs-5">Author: @item.Author</p>
+                                <p class="card-text fs-5">Category: @item.Type</p>
+                                <p class="card-text fs-5">ISBN: @item.ISBN</p>
+                                <p class="card-text fs-5">Publish Date: @item.PublishDateTime.ToString("dd/MM/yyyy")</p>
+                                @if(item.Status != "Borrowed")
+                                {
+                                    <p class="card-text fs-5">Location Information: @item.LocationInfo</p>
+                                }
+                            </div>
+                            <div class="card-body m-auto text-center col-6">
+                                <p class="card-text fs-5 fw-bold">Id: @item.Id</p>
+                                <p class="card-text fs-5">Status: @item.Status</p>
+                                @if(item.Status == "Borrowed")
+                                {
+                                    <p class="card-text fs-5">Member: @item.Member.FirstName @item.Member.LastName / Id: @item.MemberId</p>
+                                    <p class="card-text fs-5">Lend Date: @item.BorrowedDate</p>
+                                    <a asp-controller="Book" asp-action="Receive" asp-route-id="@item.Id" class="btn btn-success fs-5 py-2 px-5">Receive</a>
+                                }
+                                @if(item.Status != "Borrowed")
+                                {
+                                    <a asp-controller="Book" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary fs-5 py-2 px-5">Edit</a>
+                                    <a asp-controller="Lend" asp-action="Index" asp-route-id="@item.Id" class="btn btn-warning fs-5 py-2 px-5">Lend</a>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+    </div>
+    <div class="pagination mt-5">
+        @if (Model.TotalPages > 1)
+        {
+            <ul class="d-flex justify-content-center w-100 text-center">
+                @for (int i = 1; i <= Model.TotalPages; i++)
+                {
+                    <li class="@(i == Model.CurrentPage ? "active" : "") page-item list-unstyled">
+                        <a href="@Url.Action("Index", "Book", new { page = i })" class="page-link">@i</a>
+                    </li>
+                }
+            </ul>
+        }
+    </div>
+
+</main>

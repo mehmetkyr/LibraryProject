@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/lib/font-awesome/css/all.css" />
+    <title>Library Edit</title>
+    <style>
+        * {
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+
+<body>
+    @* Navbar *@
+    <partial name="~/Views/Shared/_navbarAdmin.cshtml" />
+
+    @* Body *@
+    @RenderBody()
+
+    @* Footer *@
+    <partial name="~/Views/Shared/_footerAdmin.cshtml">
+</body>
+
+</html>

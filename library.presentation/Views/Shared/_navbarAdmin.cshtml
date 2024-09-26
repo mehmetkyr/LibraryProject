@@ -1,0 +1,43 @@
+﻿<style>
+    .navbar-nav a:hover{
+        opacity:0.6;
+    }
+</style>
+
+<nav class="navbar navbar-expand-lg mb-5 bg-warning">
+    <div class="container">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="navbar-brand fs-2 text-black" asp-controller="Book" asp-action="Index">🕮 LIBRARY ADMIN PAGE</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link me-3 fs-4 text-black" aria-current="page" asp-controller="Home" asp-action="Index" asp-area="">
+                    <i class="fa fa-home fa-sm"></i> Home
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link me-3 fs-4 text-black" type="button" asp-controller="Contact" asp-action="Contact" asp-area="AdminPanel">
+                    <i class="fa fa-envelope fa-sm"></i> Messages
+                </a>
+            </li>
+            <div class="dropdown nav-item me-3 fs-4">
+                <a class="nav-link dropdown-toggle text-black" type="button" data-bs-toggle="dropdown" aria-expanded="false">Add</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item p-3 fs-5" asp-controller="Book" asp-action="Add">Add Book</a></li>
+                </ul>
+            </div>
+            <div class="dropdown nav-item me-3 fs-4">
+                <a class="nav-link dropdown-toggle text-black" type="button" data-bs-toggle="dropdown" aria-expanded="false">Edit</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item p-3 fs-5 border-bottom" asp-controller="Book" asp-action="Index">Edit Books</a></li>
+                    <li><a class="dropdown-item p-3 fs-5 border-bottom"asp-controller="Member" asp-action="Index">Edit Members</a></li>
+                    <li><a class="dropdown-item p-3 fs-5 " asp-controller="Role" asp-action="Index">Edit Roles</a></li>
+                </ul>
+            </div>
+        </ul>
+    </div>
+</nav>
+
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

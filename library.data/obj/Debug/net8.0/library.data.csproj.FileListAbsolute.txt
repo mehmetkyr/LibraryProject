@@ -1,0 +1,14 @@
+C:\Users\mehme\Desktop\libraryProject\library.data\bin\Debug\net8.0\library.data.deps.json
+C:\Users\mehme\Desktop\libraryProject\library.data\bin\Debug\net8.0\library.data.runtimeconfig.json
+C:\Users\mehme\Desktop\libraryProject\library.data\bin\Debug\net8.0\library.data.dll
+C:\Users\mehme\Desktop\libraryProject\library.data\bin\Debug\net8.0\library.data.pdb
+C:\Users\mehme\Desktop\libraryProject\library.data\obj\Debug\net8.0\library.data.csproj.AssemblyReference.cache
+C:\Users\mehme\Desktop\libraryProject\library.data\obj\Debug\net8.0\library.data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mehme\Desktop\libraryProject\library.data\obj\Debug\net8.0\library.data.AssemblyInfoInputs.cache
+C:\Users\mehme\Desktop\libraryProject\library.data\obj\Debug\net8.0\library.data.AssemblyInfo.cs
+C:\Users\mehme\Desktop\libraryProject\library.data\obj\Debug\net8.0\library.data.csproj.CoreCompileInputs.cache
+C:\Users\mehme\Desktop\libraryProject\library.data\obj\Debug\net8.0\library.data.dll
+C:\Users\mehme\Desktop\libraryProject\library.data\obj\Debug\net8.0\refint\library.data.dll
+C:\Users\mehme\Desktop\libraryProject\library.data\obj\Debug\net8.0\library.data.pdb
+C:\Users\mehme\Desktop\libraryProject\library.data\obj\Debug\net8.0\library.data.genruntimeconfig.cache
+C:\Users\mehme\Desktop\libraryProject\library.data\obj\Debug\net8.0\ref\library.data.dll

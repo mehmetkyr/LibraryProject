@@ -1,0 +1,32 @@
+﻿@model LoginViewModel
+
+<div class="container">
+
+    <h2 class="text-center mt-5"> LOG IN </h2>
+
+    <form method="post" class="p-5" asp-controller="Account" asp-action="Login">
+        <input type="hidden" name="ReturnUrl" value="@Model.ReturnUrl"/>
+        <div class="mt-4 mx-auto w-50">
+            <label class="form-label">User Name</label>
+            <input type="text" class="form-control" asp-for="UserName" />
+            <span class="text-danger" asp-validation-for="UserName"></span>
+        </div>
+        <div class="mt-4 mx-auto w-50">
+            <label class="form-label">Password</label>
+            <input type="password" class="form-control" asp-for="Password" />
+            <span class="text-danger" asp-validation-for="Password"></span>
+        </div>
+        <div class="row w-50" style="margin:auto auto 9rem auto;">
+            <div class="col mt-5 p-0">
+                <button type="submit" class="btn btn-primary px-5">Login</button>
+            </div>
+            <div class="col mt-5 text-end p-0">
+                <p><b>Create an account:</b> <a class="btn btn-warning px-5" asp-controller="Account" asp-action="Register">Register</a></p>
+            </div>
+        </div>
+    </form>
+</div>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>

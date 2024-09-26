@@ -1,0 +1,42 @@
+﻿@model RoleViewModel
+
+<div class="container">
+
+    <h1 class="">EDIT ROLES</h1>
+
+    <form method="post" asp-controller="Role" asp-action="Create" class="pb-5">
+        <label class="form-label mt-5">Create Role</label>
+        <div class="d-flex">
+            <input type="text" style="background-color:#f2f2f2;" class="form-control w-25" asp-for="@Model.IdentityRole.Name" />
+            <span class="text-danger" asp-validation-for="@Model.IdentityRole.Name"></span>
+            <button type="submit" class="btn btn-primary px-4 mx-3">Create</button>
+        </div>
+    </form>
+    <div class="min-vh-100">
+        <table class="table table-bordered" style="background-color:#f2f2f2;">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Role Name</th>
+                    <th>Edit</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.IListIdentityRole)
+                {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>@item.Name</td>
+                        <td>
+                            <a asp-controller="Role" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>

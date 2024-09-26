@@ -1,0 +1,63 @@
+﻿@model GetBookByIdViewModel
+
+<div class="container">
+
+    <h1> Edit Book </h1>
+
+    @if (Model is null)
+    {
+        <p>No book was found with this Id</p>
+    }
+    else
+    {
+        <form method="post">
+            <div class="mt-3">
+                <label class="form-label">Id</label>
+                <input type="text" class="form-control" readonly asp-for="Id" />
+            </div>
+            <div class="mt-3">
+                <label class="form-label">Book Name</label>
+                <input type="text" class="form-control" asp-for="Name" />
+                <span class="text-danger" asp-validation-for="Name"></span>
+            </div>
+            <div class="mt-3">
+                <label class="form-label">Author</label>
+                <input type="text" class="form-control" asp-for="Author" />
+                <span class="text-danger" asp-validation-for="Author"></span>
+            </div>
+            <div class="mt-3">
+                <label class="form-label">Image Name</label>
+                <input type="text" class="form-control" asp-for="Image" />
+                <span class="text-danger" asp-validation-for="Image"></span>
+            </div>
+            <div class="mt-3">
+                <label class="form-label">Book Type</label>
+                <input type="text" class="form-control" asp-for="Type" />
+                <span class="text-danger" asp-validation-for="Type"></span>
+            </div>
+            <div class="mt-3">
+                <label class="form-label">ISBN</label>
+                <input type="text" class="form-control" asp-for="ISBN" />
+                <span class="text-danger" asp-validation-for="ISBN"></span>
+            </div>
+            <div class="mt-3">
+                <label class="form-label">Publish Date</label>
+                <input type="date" class="form-control" asp-for="PublishDateTime" />
+                <span class="text-danger" asp-validation-for="PublishDateTime"></span>
+            </div>
+            <div class="mt-3">
+                <label class="form-label">Location Information</label>
+                <input type="text" class="form-control" asp-for="LocationInfo" />
+                <span class="text-danger" asp-validation-for="LocationInfo"></span>
+            </div>
+            <div class="mt-5">
+                <button type="submit" class="btn btn-primary px-5">Save</button>
+                <button type="submit" class="btn btn-danger px-5" asp-controller="Book" asp-action="Delete">Delete</button>
+            </div>
+        </form>
+    }
+</div>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>

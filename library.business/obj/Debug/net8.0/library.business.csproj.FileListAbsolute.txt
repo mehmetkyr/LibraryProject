@@ -1,0 +1,15 @@
+C:\Users\mehme\Desktop\libraryProject\library.business\bin\Debug\net8.0\library.business.deps.json
+C:\Users\mehme\Desktop\libraryProject\library.business\bin\Debug\net8.0\library.business.dll
+C:\Users\mehme\Desktop\libraryProject\library.business\bin\Debug\net8.0\library.business.pdb
+C:\Users\mehme\Desktop\libraryProject\library.business\bin\Debug\net8.0\library.data.dll
+C:\Users\mehme\Desktop\libraryProject\library.business\bin\Debug\net8.0\library.data.pdb
+C:\Users\mehme\Desktop\libraryProject\library.business\obj\Debug\net8.0\library.business.csproj.AssemblyReference.cache
+C:\Users\mehme\Desktop\libraryProject\library.business\obj\Debug\net8.0\library.business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mehme\Desktop\libraryProject\library.business\obj\Debug\net8.0\library.business.AssemblyInfoInputs.cache
+C:\Users\mehme\Desktop\libraryProject\library.business\obj\Debug\net8.0\library.business.AssemblyInfo.cs
+C:\Users\mehme\Desktop\libraryProject\library.business\obj\Debug\net8.0\library.business.csproj.CoreCompileInputs.cache
+C:\Users\mehme\Desktop\libraryProject\library.business\obj\Debug\net8.0\library..6508786A.Up2Date
+C:\Users\mehme\Desktop\libraryProject\library.business\obj\Debug\net8.0\library.business.dll
+C:\Users\mehme\Desktop\libraryProject\library.business\obj\Debug\net8.0\refint\library.business.dll
+C:\Users\mehme\Desktop\libraryProject\library.business\obj\Debug\net8.0\library.business.pdb
+C:\Users\mehme\Desktop\libraryProject\library.business\obj\Debug\net8.0\ref\library.business.dll

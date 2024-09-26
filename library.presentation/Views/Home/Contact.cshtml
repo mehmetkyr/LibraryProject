@@ -1,0 +1,51 @@
+﻿@model ContactViewModel
+
+<div class="container">
+
+    <h2 class="text-center p-2 mb-3" style="background-color:lightgray; border-radius:10px; color:dimgray;"> CONTACT WITH US </h2>
+
+    <form method="post" class="pb-5 p-5" style="background-color:lightgray; border-radius:10px;">
+        <div class="row">
+            <div class="col mb-3">
+                <label class="form-label">First Name</label>
+                <input type="text" class="form-control" placeholder="First name" asp-for="FirstName">
+                <span class="text-danger" asp-validation-for="FirstName"></span>
+            </div>
+            <div class="col mb-3">
+                <label class="form-label">Last Name</label>
+                <input type="text" class="form-control" placeholder="Last name" asp-for="LastName">
+                <span class="text-danger" asp-validation-for="LastName"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col mb-3">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control" placeholder="Email" asp-for="Email"/>
+                <span class="text-danger" asp-validation-for="Email"></span>
+            </div>
+            <div class="col mb-3">
+                <label class="form-label">Phone Number</label>
+                <input type="number" class="form-control" placeholder="Örnek: 5320000000" asp-for="Phone"/>
+                <span class="text-danger" asp-validation-for="Phone"></span>
+            </div>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Title</label>
+            <input type="text" class="form-control" asp-for="Title"/>
+            <span class="text-danger" asp-validation-for="Title"></span>
+        </div>
+        <div class="form-group">
+            <label for="FormControlTextarea">Your Message</label>
+            <textarea class="form-control" id="FormControlTextarea" rows="5" asp-for="Message"></textarea>
+            <span class="text-danger" asp-validation-for="Message"></span>
+            <span class="text-success">@ViewBag.Success</span>
+        </div>
+        <div class="mt-5 text-center">
+            <button type="submit" class="form-button" style="width:50%;">Send</button>
+        </div>
+    </form>
+</div>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>

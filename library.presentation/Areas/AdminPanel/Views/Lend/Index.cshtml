@@ -1,0 +1,58 @@
+﻿@model MemberBookViewModel
+
+<main>
+    <div class="container">
+        <div class="row g-0 mb-5">
+            <h1 class="col-6 justify-content-start">LEND BOOK</h1>
+        </div>
+            <div class="card mb-3" style="max-width: 100rem;">
+                <div class="row g-0">
+                    <div class="col-3">
+                        <img src="~/images/@Model.Book.Image" class="img-fluid rounded-start border-end border-2">
+                    </div>
+                    <div class="col-9 d-flex row align-items-center">
+                        <div class="card-body col-6">
+                            <h4 class="card-title mb-3 fw-bold">DETAILS</h4>
+                            <p class="card-text fs-5">Name: @Model.Book.Name</p>
+                            <p class="card-text fs-5">Author: @Model.Book.Author</p>
+                            <p class="card-text fs-5">Category: @Model.Book.Type</p>
+                            <p class="card-text fs-5">ISBN: @Model.Book.ISBN</p>
+                            <p class="card-text fs-5">Publish Date: @Model.Book.PublishDateTime.ToString("dd/MM/yyyy")</p>
+                            <p class="card-text fs-5">Location Information: @Model.Book.LocationInfo</p>
+                            </div>
+                            <div class="card-body m-auto text-center col-6">
+                            <p class="card-text fs-5">Status: @Model.Book.Status</p>
+                            <p class="card-text fs-5 mb-4 fw-bold">Id: @Model.Book.Id</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="row g-0 my-5">
+            <h1 class="col-6 justify-content-start">CHOOSE A MEMBER</h1>
+            <form asp-controller="Lend" asp-action="Index" method="get" class="d-flex col-6 justify-content-end">
+                <input class="form-control me-1 fs-5" type="search" name="searchString" placeholder="Search a Member" />
+                <button class="btn btn-primary fs-5" type="submit">Search</button>
+            </form>
+        </div>
+        <div class="row d-flex justify-content-center">
+            @foreach (var item in Model.Members)
+            {
+                <div class="card mb-4 mx-4 col-3">
+                    <div class="card-body text-center">
+                        <h4 class="card-title mb-3 fw-bold">MEMBER DETAIL</h4>
+                        <p class="card-text fs-5">First Name: @item.FirstName</p>
+                        <p class="card-text fs-5">Last Name: @item.LastName</p>
+                        <p class="card-text fs-5">Email: @item.Email</p>
+                        <p class="card-text fs-5">Address: @item.Address</p>
+                        <p class="card-text fs-5">Phone Number: @item.PhoneNumber</p>
+                        <p class="card-text fs-5">Id: @item.Id</p>
+                        <form method="post">
+                            <button class="btn btn-primary fs-5 w-100" asp-controller="Lend" asp-action="Index" asp-route-memberId="@item.Id" type="submit">Lend</button>
+                        </form>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+
+</main>
