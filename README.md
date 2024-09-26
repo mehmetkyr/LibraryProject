@@ -1,9 +1,11 @@
 📚 Kütüphane Yönetim Sistemi
 
 📝 Hakkında
+
 Kütüphane Yönetim Sistemi, ASP.NET Core MVC kullanılarak geliştirilmiş, kullanıcıların kitapları arayabileceği, ödünç alabileceği ve iade edebileceği bir web uygulamasıdır. Sistem, yöneticilerin kitap eklemesine, düzenlemesine ve kullanıcı yönetimi yapmasına olanak tanır.
 
 ✨ Özellikler
+
 Kullanıcı Kaydı ve Girişi: Kullanıcılar hesap oluşturabilir ve giriş yapabilir.
 
 Kitap Arama ve Filtreleme: Kitapları isim, yazar veya kategoriye göre arayabilirsiniz.
@@ -56,7 +58,7 @@ Yönetici Paneli:
 
 - Yönetici hesabınızla giriş yaparak kitap ekleyebilir, düzenleyebilir, kullanıcılar ve kullanıcı rollerini yönetebilirsiniz.
 
-📫 İletişim:
+📫 İletişim
 
 Ad-Soyad: Mehmet Ali Kayar
 
