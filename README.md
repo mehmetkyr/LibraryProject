@@ -31,26 +31,30 @@ Diğer:
 - Fluent Validation
 
 🎮 Kullanım
+
 Admin Olarak Giriş Yapın:
+
 username: admin
+
 password: Admin1.
 
-- Kitapları Görüntüleyin:
+Kitapları Görüntüleyin:
 
-List sayfasında mevcut kitapların listesini görebilirsiniz.
-Arama çubuğunu kullanarak belirli kitapları arayabilirsiniz.
+- List sayfasında mevcut kitapların listesini görebilirsiniz.
 
-- Kitap Ödünç Verin:
+- Arama çubuğunu kullanarak belirli kitapları arayabilirsiniz.
 
-Bir kitabın edit sayfasına gidebilir ve "Lend" butonuna tıklayarak mevcut üyelere herhangi bir kitabı ödünç olarak verebilirsiniz.
+Kitap Ödünç Verin:
 
-- Bizimle İletişime Geçin:
+- Bir kitabın edit sayfasına gidebilir ve "Lend" butonuna tıklayarak mevcut üyelere herhangi bir kitabı ödünç olarak verebilirsiniz.
 
-Contact Us kısmından sayfa yöneticilerine mesaj yollayabilirsiniz.
+Bizimle İletişime Geçin:
 
-- Yönetici Paneli:
+- Contact Us kısmından sayfa yöneticilerine mesaj yollayabilirsiniz.
 
-Yönetici hesabınızla giriş yaparak kitap ekleyebilir, düzenleyebilir, kullanıcılar ve kullanıcı rollerini yönetebilirsiniz.
+Yönetici Paneli:
+
+- Yönetici hesabınızla giriş yaparak kitap ekleyebilir, düzenleyebilir, kullanıcılar ve kullanıcı rollerini yönetebilirsiniz.
 
 📫 İletişim:
 
