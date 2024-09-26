@@ -5,9 +5,13 @@ Kütüphane Yönetim Sistemi, ASP.NET Core MVC kullanılarak geliştirilmiş, ku
 
 ✨ Özellikler
 Kullanıcı Kaydı ve Girişi: Kullanıcılar hesap oluşturabilir ve giriş yapabilir.
+
 Kitap Arama ve Filtreleme: Kitapları isim, yazar veya kategoriye göre arayabilirsiniz.
+
 Kitap Ödünç Alma ve İade: Kullanıcılar kitapları ödünç alabilir ve iade edebilir.
+
 Yönetici Paneli: Yöneticiler kitap ekleyebilir, düzenleyebilir ve kullanıcıları yönetebilir.
+
 Rol Tabanlı Yetkilendirme: Kullanıcı rolleri oluşturabilir, kullanıcılara rol ataması yapılabilir.
 
 🚀 Teknolojiler
@@ -31,20 +35,27 @@ Admin Olarak Giriş Yapın:
 username: admin
 password: Admin1.
 
-Kitapları Görüntüleyin:
+- Kitapları Görüntüleyin:
+
 List sayfasında mevcut kitapların listesini görebilirsiniz.
 Arama çubuğunu kullanarak belirli kitapları arayabilirsiniz.
 
-Kitap Ödünç Verin:
+- Kitap Ödünç Verin:
+
 Bir kitabın edit sayfasına gidebilir ve "Lend" butonuna tıklayarak mevcut üyelere herhangi bir kitabı ödünç olarak verebilirsiniz.
 
-Bizimle İletişime Geçin:
+- Bizimle İletişime Geçin:
+
 Contact Us kısmından sayfa yöneticilerine mesaj yollayabilirsiniz.
 
-Yönetici Paneli:
+- Yönetici Paneli:
+
 Yönetici hesabınızla giriş yaparak kitap ekleyebilir, düzenleyebilir, kullanıcılar ve kullanıcı rollerini yönetebilirsiniz.
 
-📫 İletişim
+📫 İletişim:
+
 Ad-Soyad: Mehmet Ali Kayar
+
 E-posta: kayarmehmetali@outlook.com
+
 LinkedIn: linkedin.com/in/mehmetkyr
