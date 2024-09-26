@@ -11,14 +11,17 @@ Yönetici Paneli: Yöneticiler kitap ekleyebilir, düzenleyebilir ve kullanıcı
 Rol Tabanlı Yetkilendirme: Kullanıcı rolleri oluşturabilir, kullanıcılara rol ataması yapılabilir.
 
 🚀 Teknolojiler
+
 Backend:
 - ASP.NET Core MVC
 - Entity Framework Core
 - MsSQL Server
+
 Frontend:
 - HTML5
 - CSS3
 - Bootstrap
+
 Diğer:
 - ASP.NET Identity
 - Fluent Validation
